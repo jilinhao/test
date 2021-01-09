@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T06:51:55.482Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dehKtFOIB3C4Yk3aEa_O" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T13:29:45.116Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="D5DjZTN0bzAAyr3QlHw9" version="14.1.8" type="github">
   <diagram id="xhLX_bbHOacLEbQQJA1L" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -103,8 +103,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Liaz7uwgIyD5OLgwqCPN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Liaz7uwgIyD5OLgwqCPN-26" target="Liaz7uwgIyD5OLgwqCPN-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Liaz7uwgIyD5OLgwqCPN-26" value="保存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502.65" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="503" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Liaz7uwgIyD5OLgwqCPN-30" value="不断循环直到不满足&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;presetnum&amp;lt;分片数processNum&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="380" width="180" height="30" as="geometry" />
@@ -129,6 +132,21 @@
         </mxCell>
         <mxCell id="Liaz7uwgIyD5OLgwqCPN-41" value="传参" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="760" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Liaz7uwgIyD5OLgwqCPN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Liaz7uwgIyD5OLgwqCPN-42" target="Liaz7uwgIyD5OLgwqCPN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Liaz7uwgIyD5OLgwqCPN-42" value="叠加（更新线索数量）到actualNum(执行分配数量)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Liaz7uwgIyD5OLgwqCPN-44" value="返回更新leads_public线索数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="840" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Liaz7uwgIyD5OLgwqCPN-45" value="更新leads_assign_record&lt;br&gt;表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Liaz7uwgIyD5OLgwqCPN-47" value="查询分配线索表的id且&lt;br&gt;状态是1(已提交待执行)的分配任务&lt;br&gt;更新他的分配时间（assignAt）&lt;br&gt;和状态（state=2 执行成功）,&lt;br&gt;实际分配的数量（&lt;span&gt;actualNum）&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="677.5" y="960" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
