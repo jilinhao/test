@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T04:14:17.698Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HC5eLR0UfCPuspSywqv_" version="14.1.8" type="github"><diagram id="tQqcgxhjwbBOvLVQUvvc" name="Page-1">7VpZb+M2EP41BNqHBLqPR8rHFmiLHsGi3aeAsRhbrSy6Eh3b++s7pEhLshjbzfpKESAIyOHw0FwfZ2jkDubrTyVZzH5mKc2RY6Vr5A6R48ReAP8FYVMTAk2Ylllak+yG8JB9pYpoKeoyS2nVYeSM5TxbdIkTVhR0wjs0UpZs1WV7Znl31wWZ0h7hYULyPvWPLOUzRXUsqxn4gWbTmd46dtTInGhuRahmJGWrFskdIXdQMsbr1nw9oLkQnhZMPW/8yuj2ZCUt+DETvtIff/9tNX74ZXT38jm2ZgGbpneuOhvf6C+mKQhAdVnJZ2zKCpKPGmpSsmWRUrGqBb2G5yfGFkC0gfgX5XyjtEmWnAFpxue5GqXrjP8ppt/7qvelNTJcq5VlZ6M7BS83rUmi+6U91kyTPT2vLyUluIotywndIxptbqScUr6Hz6n5hNxaGygdfKJsTuE8wFDSnPDspWtYRNnndMvXaBAaSon/QaFq3ReSL9VOaBSiBKNkLBsewkDxURShKECjGEXQHvasoNGxUMtqlnH6sCBSXitw9K4+X5XxCy05Xe+Vihr1tJdsuv6/ajmdps1a/uZaZ5Jj9OEYBwz+oGOEN+UYjsExwAdGKAmlP4xRHIhGMhIuAQ0MjQEaBcJVYguNPJQk4k8wY4TtnoFc22eCa/tMYBBxgOIxwr6QNYaGU3HCqZSBEChI1ntaVllBq+oR1nYCMheCmsJRE2vLslykMCt9JLzLUbDVd9/DjoDGLtb/NEfe5pCaHaLYleqLRcgTR4OAKINgLCMjxMfIQUkseUJhEqIxkkqXJ4msTuiMHfFxTiB3eiqhJU8lv9VGOJL7jlEyQDHOKUmrR1JV2bR4LOmElalppjREjPtysyVpaLI7MBfeNa6Kl+xvOmA5K4FSsEJEp+csz3dIJIfTQDenz2IFYXoZ3H2wIs+zNJWBzWTL3WB3AnP2w645eyEEtF2DdiKDQfuO5jw9nPofOHAgvh/EAdu7KSAIjwKC2t9xy/G1+90+ENhWdB/2feeyYGCbbqIBwpYMsIGIwICw++QMDQjaVot5V02cTAVqQBdCcTQQTRlua9zuBtAWuuR1rN2zdQgRG0WemNOgkN4tRHgoMETQsTjRESvpuTtGFGwZJPhgSQnECpH9ASxnApZX3OPi0BJeFVpawNLAzCFo6QBLgzOnz729I7Hl5Mm3nIrLkmxaDAuWFbxqrfyrIDQW5u5aWGy3zeMgv7LGxprqAzS2tf2Sb8h/nI+bzLebm31TVxl97g7G7gWjHYgRQxIHBIRaCAewiGOCjxpWIzkzRjhUUCSAtp8p18xx/140Y3PI9i5zJ7L8rksG9r1juBN5hqAfnO1OFLwXH7yAL91YWmBHBl/SXmHwiO0tUJWMbKs64gKlL0YTkCst912NSlplX8mTXEpoRGEQrOsnyB+KtUDTVa30EzmNa+/gmNMvKQWXTCL0/rslJRmz3ru0vagrbeA3hSjXIHDnbAJ/NxHqCnXvo1+E3JuKbM51E43/iU5vC62cj/epE+jUvy2dmitmcSLfJgJRlkwsfRWpFqTo6D/4Zyl+SZAIFLxTwIeBQ5ZgtqP6/mKqGjXVpXoL+Ih6F3Xl6V2CWs8yhscUmX4k+KiXl2tXUN24my04njlbMF1+vLNhsWu8ke683Iv8y5MZmS8oWCZiia/LpJGsoMo6qnrP6vJcW/LOTinEdY98xTyf2E1J9dvEHgqGOs1W0jYWZnsrv6asfStf/Q1iWyndp0mdlV9Gk/6RmnyLvPfUSCRDUgdvWQgx/gJHPlnIxlBWTXwRLyGnFDwJim1VWYnxnoLKhZW8W0k3qthUUXmDiqHb/DauLoI2vzB0R/8C</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-09T04:15:24.572Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UHQ5B_Xw_OYqH5oIh8B0" version="14.1.8" type="github">
+  <diagram id="tQqcgxhjwbBOvLVQUvvc" name="Page-1">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-1" target="zeKRQwFSOE-vU90h6ogd-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-1" value="线索分配" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-2" target="zeKRQwFSOE-vU90h6ogd-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-2" value="获取待完成任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-6" value="查询state=1且business_id&amp;gt;0且updated_at&amp;gt;now() 00:00:00&amp;lt;now() 当前时间点减去一分钟&lt;br&gt;表 ：leads_assign_record&lt;br&gt;只查询1条" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="47.5" width="280" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-7" target="zeKRQwFSOE-vU90h6ogd-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-7" value="获取上一条任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="108.75" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-11" value="根据上一条数据获取tag_id和id，查询id&amp;lt;上一条的id 且tag_id等于上一条的tag_id条件的状态&lt;br&gt;表 ：leads_assign_record&lt;br&gt;只查询1条" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="108.75" width="280" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-14" target="zeKRQwFSOE-vU90h6ogd-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="191" />
+              <mxPoint x="370" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-14" target="zeKRQwFSOE-vU90h6ogd-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-14" value="上一条状态是否=2&lt;br&gt;（执行完成）" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="161.25" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-14" target="zeKRQwFSOE-vU90h6ogd-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-18" value="否&lt;br&gt;等待10s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="221.25" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-21" target="zeKRQwFSOE-vU90h6ogd-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-21" target="zeKRQwFSOE-vU90h6ogd-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zeKRQwFSOE-vU90h6ogd-21" target="zeKRQwFSOE-vU90h6ogd-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-21" value="更新&lt;span style=&quot;text-align: left&quot;&gt;leads_assign_record表&lt;/span&gt;&lt;br&gt;updated_at时间为当前时间" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="241.25" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-23" value="分配大公海到小公海" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="330" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-24" value="分配大公海到私海&lt;br&gt;分配小公海到私海" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="422.5" y="330" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zeKRQwFSOE-vU90h6ogd-25" value="分配小公海到私海&lt;br&gt;（已有线索和坐席绑定）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="330" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
