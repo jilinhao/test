@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T07:41:48.348Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hSSBgBvrUDcfN4nIN0fQ" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T15:21:27.970Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wPm6DrXowZ_q8aB5TILD" version="14.1.8" type="github">
   <diagram id="Vy2xMf6rB6mP1ssAV8Z6" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -114,8 +114,17 @@
         <mxCell id="cDqadRUkF0LDUq5StgBz-45" value="分配大公海到私海&lt;br&gt;分配小公海到私海" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cDqadRUkF0LDUq5StgBz-46" value="分配小公海到私海&lt;br&gt;（已有线索和坐席绑定）&lt;br&gt;数据表备注：私海分配到小公海" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="630" width="170" height="60" as="geometry" />
+        <mxCell id="cDqadRUkF0LDUq5StgBz-46" value="分配小公海到私海（单独一套逻辑）&lt;br&gt;（已有线索和坐席绑定）&lt;br&gt;数据表备注：私海分配到小公海" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="630" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cDqadRUkF0LDUq5StgBz-47" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="160" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cDqadRUkF0LDUq5StgBz-48" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cDqadRUkF0LDUq5StgBz-49" value="只有大于零才能有下面逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="125" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
