@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T08:43:04.340Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="j409ts054QonOvczBQUH" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T09:13:32.910Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d57rWUIjuwZv45HXiRBk" version="14.1.8" type="github">
   <diagram id="fevQykHVZQZkiRMJkd6L" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -213,8 +213,73 @@
         <mxCell id="RFZ-xyAYEmnQH6jCGxA0-72" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;批量查询uuid,更新leads_public表&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;state=24暂时不分配&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;staffid=0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;extendIndex=&quot;YCWH&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075.01" y="450" width="179.99" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-74" value="区分线索&lt;br&gt;遍历staffLeadsIds(分配完的map)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1075" y="530" width="180" height="40" as="geometry" />
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-74" target="RFZ-xyAYEmnQH6jCGxA0-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-74" target="RFZ-xyAYEmnQH6jCGxA0-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-74" value="区分线索&lt;br&gt;遍历staffLeadsIds(分配完的map)&lt;br&gt;逐个和stafflist匹配,判断是否存在" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="530" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-76" target="RFZ-xyAYEmnQH6jCGxA0-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-76" target="RFZ-xyAYEmnQH6jCGxA0-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="660" />
+              <mxPoint x="1218" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-76" value="leadsIds&amp;lt;=(fill-waitassign)" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="620" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-77" target="RFZ-xyAYEmnQH6jCGxA0-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-77" value="&lt;div&gt;//不在本次分配的坐席范围内&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;boundLeadsIds = append(boundLeadsIds, leadsIds...) //其他坐席已绑定&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="620" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-80" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="580" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-81" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="580" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-83" target="RFZ-xyAYEmnQH6jCGxA0-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-83" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;staffScore.WaitAssign = append(staffScore.WaitAssign, leadsIds...)&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span&gt;&lt;/span&gt;staffScore.BindAssign = append(staffScore.BindAssign, leadsIds...)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="680" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-85" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="640" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-86" target="RFZ-xyAYEmnQH6jCGxA0-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-86" value="&lt;div style=&quot;text-indent: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;staffScore.WaitAssign = append(staffScore.WaitAssign, leadsIds[0:staffScore.Fill]...)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span&gt;				&lt;/span&gt;staffScore.BindAssign = append(staffScore.BindAssign, leadsIds[0:staffScore.Fill]...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;div&gt;boundLeadsIds = append(boundLeadsIds, leadsIds[staffScore.Fill:]...)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1047.5" y="770" width="312.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-88" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1180.01" y="680" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-89" target="RFZ-xyAYEmnQH6jCGxA0-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-89" value="&lt;div&gt;重新赋值&lt;/div&gt;&lt;div&gt;staffList[staffId] = staffScore&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="890" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-93" target="RFZ-xyAYEmnQH6jCGxA0-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-93" value="判断是否是天润tag" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-96" value="逻辑下一页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
