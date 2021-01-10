@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T11:34:16.693Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.8" etag="Tg0QpfAwxdHkKJnOollt" type="github"><diagram id="4bwhXhDqa9SOE-p7me46">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-10T14:28:13.833Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="YrGwSRY2nOlt5k6tmX33" version="14.1.8" type="github">
+  <diagram id="4bwhXhDqa9SOE-p7me46" name="Page-1">
+    <mxGraphModel dx="946" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XvRdv1T-uJq3PUYcEJSS-1" target="XvRdv1T-uJq3PUYcEJSS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-1" value="线索生成（定时类）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-2" value="注：数据来源:大数据根据Task服务的定时&lt;br&gt;任务，定时推送线索到kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="15" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XvRdv1T-uJq3PUYcEJSS-3" target="XvRdv1T-uJq3PUYcEJSS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XvRdv1T-uJq3PUYcEJSS-3" target="XvRdv1T-uJq3PUYcEJSS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-3" value="&lt;div&gt;根据消息中msg.Key解析线索类型&lt;/div&gt;&lt;div&gt;线索分组按照左侧简称做key,消息体做值得map&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="65" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XvRdv1T-uJq3PUYcEJSS-4" target="XvRdv1T-uJq3PUYcEJSS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-4" value="&lt;div&gt;按leadsType给消息分组,目前分三组(实际2组)，&lt;/div&gt;&lt;div&gt;3&amp;nbsp;微爱回访类型&amp;nbsp;visitLeads &amp;nbsp;&lt;/div&gt;&lt;div&gt;4 电销类型&amp;nbsp; &amp;nbsp;saasLeads&lt;/div&gt;&lt;div&gt;其他&amp;nbsp; 共建电销&amp;nbsp; saasLeads&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="60" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-9" value="普通线索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-10" value="回访线索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XvRdv1T-uJq3PUYcEJSS-13" value="解析数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
