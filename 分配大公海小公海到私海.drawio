@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T05:10:13.777Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="c5OC33C_ayhtXClMlP23" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T06:18:30.095Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9WXrvoE0gOxLC_Ye2nAQ" version="14.1.8" type="github">
   <diagram id="KY8PMSi8VeK6j9uEWK3R" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -511,7 +511,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-179" value="&lt;span&gt;使用phoneTagIDMap通过线索对应phoneid,找到common.TRCallTags中是否这个tagid,、存在则默认&lt;br&gt;&lt;/span&gt;&lt;span&gt;赋值预测外呼：&lt;/span&gt;&lt;br&gt;&lt;div&gt;predictCallPhones[Phone] = 0&lt;/div&gt;&lt;div&gt;predictCallPhoneLeadsUUIds[Phone] = phoneLeadsUUIDMap通过手机号获取uuid&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1795" y="1350" width="341.75" height="90" as="geometry" />
+          <mxGeometry x="1798.5" y="1350" width="341.75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-181" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1765" y="1310" width="30" height="20" as="geometry" />
@@ -528,12 +528,6 @@
         <mxCell id="M7u62a-sFAjZS3G1px5h-184" value="如果上面存在，&lt;br&gt;&lt;div&gt;&lt;span&gt;获取当前时间和线索列表中线索的分配时间，判断是否小于等于60天，默认存入以phoneid为key,以坐席id为值得bound中&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1540" y="1460" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M7u62a-sFAjZS3G1px5h-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-187" target="M7u62a-sFAjZS3G1px5h-183">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="M7u62a-sFAjZS3G1px5h-187" value="注：应该是永远存在tagid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1330.63" y="1405" width="150" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-188" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1655" y="1440" width="40" height="20" as="geometry" />
         </mxCell>
@@ -549,6 +543,9 @@
         <mxCell id="M7u62a-sFAjZS3G1px5h-192" value="大于60天" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1656.5" y="1520" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-195" target="M7u62a-sFAjZS3G1px5h-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-195" value="&lt;span style=&quot;text-align: left&quot;&gt;遍历assignBound，依次&lt;/span&gt;存入缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1769.25" y="1640" width="190.75" height="20" as="geometry" />
         </mxCell>
@@ -557,6 +554,15 @@
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-198" value="Zset&lt;br&gt;key :&amp;nbsp;leads:(extend中bindpool):sorted-set" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1472" y="1630" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.478;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-200" target="M7u62a-sFAjZS3G1px5h-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-200" value="返回assignBound&lt;br&gt;1、assignBound&amp;nbsp;在phonesMap中过滤，&lt;br&gt;2、再重新循环phonesMap，获取手机号切片&lt;span style=&quot;text-align: center&quot;&gt;phones&lt;/span&gt;列表" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1711.66" y="1680" width="305.94" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-202" value="遍历phone(还没有绑定关系的线索uuid和phone映射关系)&lt;br&gt;逐个赋值&lt;span&gt;phoneLeadsUUIDMapAfterCheckAssign[QscPhone(v)] = phoneLeadsUUIDMap[QscPhone(v)]&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1706.0600000000002" y="1750" width="326.37" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
