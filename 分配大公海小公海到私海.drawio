@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T02:55:53.382Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8TlnZ1oVpjG_rh8Wf_48" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T05:10:13.777Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="c5OC33C_ayhtXClMlP23" version="14.1.8" type="github">
   <diagram id="KY8PMSi8VeK6j9uEWK3R" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -358,14 +358,205 @@
         <mxCell id="M7u62a-sFAjZS3G1px5h-122" value="遍历分配中的线索&amp;nbsp; 初始化一下变量&lt;br&gt;1、phones 逐个追加&lt;br&gt;2、phonemap[phoneid]=qscid 逐个save&lt;br&gt;3、qscphoneleadsIds[phoneid]=线索id&lt;br&gt;4、qscids 逐个追加&lt;br&gt;5、leadsidmap[线索id]=qscid 逐个save&lt;br&gt;6、phoneleadsuuidmap[phoneid]=线索对应uuid&lt;br&gt;7、phonetagidmap[phoneid]=线索对应tagid" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1600.63" y="435" width="273.75" height="125" as="geometry" />
         </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-124" target="M7u62a-sFAjZS3G1px5h-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-124" value="获取第一管家&lt;br&gt;调用checkBindByStaffAttach" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1657.5" y="580" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-126" target="M7u62a-sFAjZS3G1px5h-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M7u62a-sFAjZS3G1px5h-126" value="传参：&lt;br&gt;1、phonesmap&lt;br&gt;2、leadsIDmap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="M7u62a-sFAjZS3G1px5h-126" value="传参：&lt;br&gt;1、phonesmap&lt;br&gt;2、leadsIDmap" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1445" y="570" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-128" target="M7u62a-sFAjZS3G1px5h-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-128" value="遍历&lt;span&gt;leadsIDmap&amp;nbsp;初始化变量&lt;br&gt;&lt;div&gt;uniQscId[int64(qscId)] = struct{}{}&lt;/div&gt;&lt;div&gt;qscIdLeadsIdMap[qscId] = leadsId&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1625.76" y="625" width="223.49" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-132" target="M7u62a-sFAjZS3G1px5h-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-132" value="遍历uniQscId，获取qscIdlist切片reqid&lt;br&gt;qscId列表分组每100个一组，分多组赋值：reqIdGroups" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1618.88" y="685" width="237.25" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-135" target="M7u62a-sFAjZS3G1px5h-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-135" value="遍历reqIdGroups，分批查询grpc(GetStaffByQscId)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645.5" y="745" width="172" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-137" target="M7u62a-sFAjZS3G1px5h-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-137" value="查询条件：&lt;br&gt;1、Rank:1&lt;br&gt;2、QscId:qscid" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="738" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-139" target="M7u62a-sFAjZS3G1px5h-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-139">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1731" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-139" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;上面会有多个，只取第一个&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;staffList := GetStaffByQscIdResponse.List&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;staffInfo := staffList[0]&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;保存在QscIdStaffKeyMap[qscid]=staffInfo.StaffKey&amp;nbsp;&lt;span&gt;绑定关系了&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1562.8100000000002" y="800" width="337.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-142" value="循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="788" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-144" value="循环完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="860" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-145" target="M7u62a-sFAjZS3G1px5h-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-145" value="遍历phonesMap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1672" y="890" width="118" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-146" target="M7u62a-sFAjZS3G1px5h-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-146" value="&lt;div&gt;QscIdStaffKeyMap[v] != &quot;&quot;&lt;/div&gt;&lt;div&gt;&lt;span&gt;因为可能比&lt;/span&gt;&lt;/div&gt;&lt;span&gt;phonesMap少&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="875" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-148" target="M7u62a-sFAjZS3G1px5h-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-148" value="循环查询crm_user表 根据account=phonesMap的value&lt;br&gt;获取用户信息,取一条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645.5" y="940" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-149" target="M7u62a-sFAjZS3G1px5h-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-149" value="注：&lt;span&gt;account以后要代替staffid&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1448.88" y="950" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.471;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-152" target="M7u62a-sFAjZS3G1px5h-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-152" value="call-&amp;gt;CheckStaffLeave&lt;br&gt;获取坐席在职状态&lt;br&gt;redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1656.5" y="1000" width="148" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-153" target="M7u62a-sFAjZS3G1px5h-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-153" value="参数：&lt;br&gt;上一个userinfo的id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1480.63" y="1010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-155" target="M7u62a-sFAjZS3G1px5h-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-155" target="M7u62a-sFAjZS3G1px5h-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-155" value="在职，逐个绑定&lt;br&gt;bound[phoneid] = userInfo[0].Id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1643.5" y="1070" width="188" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-158" value="循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1849.25" y="970" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-160" target="M7u62a-sFAjZS3G1px5h-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-160" value="返回staffAttachBound&lt;br&gt;1、staffAttachBound 在phonesMap中过滤，&lt;br&gt;2、再重新循环phonesMap，获取手机号切片&lt;span style=&quot;text-align: center&quot;&gt;phones&lt;/span&gt;列表" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1578.53" y="1120" width="305.94" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-165" target="M7u62a-sFAjZS3G1px5h-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-165" value="获取历史分配call-&amp;gt;checkBindByAssign" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1621.51" y="1190" width="218" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-167" target="M7u62a-sFAjZS3G1px5h-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-167" value="参数：&lt;br&gt;phones, businessId, &lt;br&gt;phoneLeadsUUIDMap, &lt;br&gt;phoneTagIDMap&lt;br&gt;返回&lt;br&gt;&lt;div&gt;assignBound,&amp;nbsp;&lt;/div&gt;&lt;div&gt;predictCallBound,&amp;nbsp;&lt;/div&gt;&lt;div&gt;predictCallPhoneLeadsUUIds&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1135" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-169" target="M7u62a-sFAjZS3G1px5h-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-169" value="遍历&lt;span style=&quot;text-align: left&quot;&gt;phones&lt;br&gt;每100查询一次leads_public&lt;br&gt;获取leadsList&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1641.01" y="1230" width="193" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-171" target="M7u62a-sFAjZS3G1px5h-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-171" value="条件：&lt;br&gt;1、state in(3,4,5,6)&lt;br&gt;已分配至私海,已成交,跟进中,丢单" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1265" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-174" target="M7u62a-sFAjZS3G1px5h-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-174" value="获取第一个坐席id是否离职" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1350" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-175" target="M7u62a-sFAjZS3G1px5h-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-175" target="M7u62a-sFAjZS3G1px5h-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-175" value="&lt;span style=&quot;text-align: left&quot;&gt;len(leadsList)&amp;gt;0?&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1676.5" y="1290" width="122" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-178" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1672" y="1310" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.558;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-179" target="M7u62a-sFAjZS3G1px5h-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-179" value="&lt;span&gt;使用phoneTagIDMap通过线索对应phoneid,找到common.TRCallTags中是否这个tagid,、存在则默认&lt;br&gt;&lt;/span&gt;&lt;span&gt;赋值预测外呼：&lt;/span&gt;&lt;br&gt;&lt;div&gt;predictCallPhones[Phone] = 0&lt;/div&gt;&lt;div&gt;predictCallPhoneLeadsUUIds[Phone] = phoneLeadsUUIDMap通过手机号获取uuid&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1795" y="1350" width="341.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-181" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="1310" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-183" target="M7u62a-sFAjZS3G1px5h-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-183" value="使用phoneTagIDMap通过线索对应phoneid,找到common.TRCallTags中是否这个tagid,不存在则默认存入以phoneid为key,以坐席id为值得bound中" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1517.81" y="1390" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-184" target="M7u62a-sFAjZS3G1px5h-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-184" value="如果上面存在，&lt;br&gt;&lt;div&gt;&lt;span&gt;获取当前时间和线索列表中线索的分配时间，判断是否小于等于60天，默认存入以phoneid为key,以坐席id为值得bound中&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1460" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-187" target="M7u62a-sFAjZS3G1px5h-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-187" value="注：应该是永远存在tagid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1330.63" y="1405" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-188" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="1440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.715;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-190" target="M7u62a-sFAjZS3G1px5h-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.558;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-190" target="M7u62a-sFAjZS3G1px5h-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-190" value="赋值预测外呼：&lt;br&gt;&lt;div&gt;predictCallPhones[Phone] = StaffId&lt;/div&gt;&lt;div&gt;predictCallPhoneLeadsUUIds[Phone] = UuId&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1550" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-192" value="大于60天" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1656.5" y="1520" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-195" value="&lt;span style=&quot;text-align: left&quot;&gt;遍历assignBound，依次&lt;/span&gt;存入缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1769.25" y="1640" width="190.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-198" target="M7u62a-sFAjZS3G1px5h-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-198" value="Zset&lt;br&gt;key :&amp;nbsp;leads:(extend中bindpool):sorted-set" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1472" y="1630" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
