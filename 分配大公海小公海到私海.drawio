@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T06:18:30.095Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9WXrvoE0gOxLC_Ye2nAQ" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T09:19:25.534Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Qo0vXtOznHh6vKTdEuuV" version="14.1.8" type="github">
   <diagram id="KY8PMSi8VeK6j9uEWK3R" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -268,6 +268,9 @@
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-87" value="管家模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1690" y="30" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-88" target="M7u62a-sFAjZS3G1px5h-204">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-88" value="普通模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2240" y="30" width="70" height="20" as="geometry" />
@@ -563,6 +566,9 @@
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-202" value="遍历phone(还没有绑定关系的线索uuid和phone映射关系)&lt;br&gt;逐个赋值&lt;span&gt;phoneLeadsUUIDMapAfterCheckAssign[QscPhone(v)] = phoneLeadsUUIDMap[QscPhone(v)]&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1706.0600000000002" y="1750" width="326.37" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-204" value="接最后一页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="70" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
