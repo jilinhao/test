@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T02:27:46.956Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eXChvZ812ov5Ijr-Xus1" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T02:55:53.382Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8TlnZ1oVpjG_rh8Wf_48" version="14.1.8" type="github">
   <diagram id="KY8PMSi8VeK6j9uEWK3R" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -338,6 +338,9 @@
         <mxCell id="M7u62a-sFAjZS3G1px5h-116" value="加入离职缓存 redis zset:&lt;br&gt;&lt;span&gt;key :&amp;nbsp;leads:staff_leave_list:sorted-set&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1640" y="340" width="200" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-118" target="M7u62a-sFAjZS3G1px5h-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-118" value="分配坐席挑选线索&lt;br&gt;调用：GetStaffBoundLeadsIds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1652.5" y="390" width="170" height="30" as="geometry" />
         </mxCell>
@@ -346,8 +349,23 @@
             <mxPoint x="1650" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M7u62a-sFAjZS3G1px5h-120" value="参数：&lt;br&gt;1、待分配(分配中)线索详情&lt;br&gt;2、分配线索任务组织id&lt;br&gt;3、分配线索任务id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="375" width="160" height="60" as="geometry" />
+        <mxCell id="M7u62a-sFAjZS3G1px5h-120" value="参数：&lt;br&gt;1、待分配(分配中)线索详情列表&lt;br&gt;2、分配线索任务组织id&lt;br&gt;3、分配线索任务id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="375" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-122" target="M7u62a-sFAjZS3G1px5h-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-122" value="遍历分配中的线索&amp;nbsp; 初始化一下变量&lt;br&gt;1、phones 逐个追加&lt;br&gt;2、phonemap[phoneid]=qscid 逐个save&lt;br&gt;3、qscphoneleadsIds[phoneid]=线索id&lt;br&gt;4、qscids 逐个追加&lt;br&gt;5、leadsidmap[线索id]=qscid 逐个save&lt;br&gt;6、phoneleadsuuidmap[phoneid]=线索对应uuid&lt;br&gt;7、phonetagidmap[phoneid]=线索对应tagid" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1600.63" y="435" width="273.75" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-124" value="获取第一管家&lt;br&gt;调用checkBindByStaffAttach" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1657.5" y="580" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-126" target="M7u62a-sFAjZS3G1px5h-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-126" value="传参：&lt;br&gt;1、phonesmap&lt;br&gt;2、leadsIDmap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="570" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
