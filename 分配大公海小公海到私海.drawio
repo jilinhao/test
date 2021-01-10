@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T01:29:02.653Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vgrLuDMm5j-NSTdkWp1x" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T02:27:46.956Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eXChvZ812ov5Ijr-Xus1" version="14.1.8" type="github">
   <diagram id="KY8PMSi8VeK6j9uEWK3R" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -263,11 +263,91 @@
         <mxCell id="M7u62a-sFAjZS3G1px5h-85" value="判断是否管家分配&lt;br&gt;根据分配任务的extend里的bind字段是否true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="401.72" y="1320" width="248.28" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-87" target="M7u62a-sFAjZS3G1px5h-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-87" value="管家模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1690" y="30" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M7u62a-sFAjZS3G1px5h-88" value="普通模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="30" width="70" height="20" as="geometry" />
+          <mxGeometry x="2240" y="30" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-93" target="M7u62a-sFAjZS3G1px5h-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-93" value="调用bindAssign方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="68" width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-96" target="M7u62a-sFAjZS3G1px5h-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-96" value="参数：&lt;br&gt;1、分配任务中的extend里的bindpool&lt;br&gt;2、分配中的线索信息map&lt;br&gt;3、待分配staffid切片列表&lt;br&gt;4、分配任务id&lt;br&gt;返回 （下面定义需要验证）&lt;br&gt;1、freeids 剩余自由线索（分配下去）&lt;br&gt;2、bindIds 剩余已被其他坐席绑定的线索&lt;br&gt;（还原到小公海）&lt;br&gt;3、staffList 本次分配线索已绑定客户线索" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="10" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-98" target="M7u62a-sFAjZS3G1px5h-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-98" value="离职坐席解绑缓存 redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652.5" y="107.5" width="147.5" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.414;entryY=-0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-100" target="M7u62a-sFAjZS3G1px5h-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-100" value="redis 获取最近一次获取离职信息时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1624.25" y="147.5" width="204" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-102" target="M7u62a-sFAjZS3G1px5h-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-102" value="zset 按照分数（时间戳）排序 &lt;br&gt;key :&amp;nbsp;leads:staff_leave_list:sorted-set" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="170" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-105" target="M7u62a-sFAjZS3G1px5h-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-105" value="获取staff用户信息列表&amp;nbsp; mysql表：crm_user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-106" target="M7u62a-sFAjZS3G1px5h-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-106" value="查询条件：&lt;br&gt;state=2(离职)&lt;br&gt;update_at&amp;gt;最近一次获取离职信息时间&lt;br&gt;离职staffid列表" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="205" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-109" target="M7u62a-sFAjZS3G1px5h-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-109" value="&lt;div&gt;坐席信息&lt;/div&gt;&lt;div&gt;type CrmUser struct {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;int64&amp;nbsp; `gorm:&quot;column:id&quot;`&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Name&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;string `gorm:&quot;column:name&quot;`&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Account&amp;nbsp; &amp;nbsp; string `gorm:&quot;column:account&quot;`&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;BusinessId int64&amp;nbsp; `gorm:&quot;column:business_id&quot;`&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="280" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-112" target="M7u62a-sFAjZS3G1px5h-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-112" target="M7u62a-sFAjZS3G1px5h-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-112" value="&lt;div&gt;遍历离职坐席列表&lt;/div&gt;&lt;div&gt;移除坐席绑定的客户缓存&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-114" value="Zset&lt;br&gt;key :&amp;nbsp;leads:(extend中bindpool):sorted-set" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1828.25" y="255" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-116" target="M7u62a-sFAjZS3G1px5h-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-116" value="加入离职缓存 redis zset:&lt;br&gt;&lt;span&gt;key :&amp;nbsp;leads:staff_leave_list:sorted-set&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="340" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-118" value="分配坐席挑选线索&lt;br&gt;调用：GetStaffBoundLeadsIds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1652.5" y="390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M7u62a-sFAjZS3G1px5h-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7u62a-sFAjZS3G1px5h-120" value="参数：&lt;br&gt;1、待分配(分配中)线索详情&lt;br&gt;2、分配线索任务组织id&lt;br&gt;3、分配线索任务id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="375" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
