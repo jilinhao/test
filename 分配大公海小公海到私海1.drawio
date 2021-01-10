@@ -1,1 +1,222 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T07:06:27.298Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.8" etag="ZgC44XSMEWeFBWqC-Eth" type="github"><diagram id="fevQykHVZQZkiRMJkd6L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-10T08:43:04.340Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="j409ts054QonOvczBQUH" version="14.1.8" type="github">
+  <diagram id="fevQykHVZQZkiRMJkd6L" name="Page-1">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-1" target="RFZ-xyAYEmnQH6jCGxA0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-1" value="过滤通话记录&lt;br&gt;call-&amp;gt;checkBindByCall" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-2" target="RFZ-xyAYEmnQH6jCGxA0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-2" value="参数：&lt;br&gt;phones, phoneLeadsUUIDMapAfterCheckAssign, &lt;br&gt;predictCallBound, phoneTagIDMap&lt;br&gt;返回&lt;br&gt;&lt;div&gt;callBound,&amp;nbsp;&lt;/div&gt;&lt;div&gt;predictCallBound,&amp;nbsp;&lt;/div&gt;&lt;div&gt;predictCallPhoneLeadsUUIds&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="85" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-8" target="RFZ-xyAYEmnQH6jCGxA0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-8" value="遍历phones&lt;br&gt;每100个处理一次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="60" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-12" target="RFZ-xyAYEmnQH6jCGxA0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-12" value="遍历leadsUUIDPhoneMap(参数&lt;span&gt;phoneLeadsUUIDMapAfterCheckAssign&lt;/span&gt;）&lt;br&gt;的phoneid对应的uuid&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="155" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.415;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-14" target="RFZ-xyAYEmnQH6jCGxA0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-14" value="请求grpc 的GetCallRecordList获取一定时间范围内，通话记录列表&lt;br&gt;response" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="230" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-16" value="参数：&lt;br&gt;&lt;div&gt;LeadsUuid: uuid,&lt;/div&gt;&lt;div&gt;Page:&amp;nbsp; &amp;nbsp; &amp;nbsp; 1,&lt;/div&gt;&lt;div&gt;Limit:&amp;nbsp; &amp;nbsp; &amp;nbsp;1,&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-18" target="RFZ-xyAYEmnQH6jCGxA0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-18" target="RFZ-xyAYEmnQH6jCGxA0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-18" value="判断是否是天润tagid&lt;br&gt;common.TRCallTags[phoneTagIDMap[QscPhone(phone)]]&lt;br&gt;且上一步的grpc结果是否&amp;lt;=0" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="325" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-20" value="遍历&lt;span&gt;predictCallBound，判断是否已存在，存在默认&lt;/span&gt;&lt;span&gt;赋值预测外呼：这个返回值和管家历史名字一样但是只值不一样&lt;/span&gt;&lt;br&gt;&lt;div&gt;predictCallPhones[Phone] = 0&lt;/div&gt;&lt;div&gt;predictCallPhoneLeadsUUIds[Phone] = phoneLeadsUUIDMap&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-21" target="RFZ-xyAYEmnQH6jCGxA0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-21" value="grpc结果大于零且坐席（account）!=&quot;&quot;," style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-24" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-26" target="RFZ-xyAYEmnQH6jCGxA0-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-26" value="调用grpc的GetSaasInfoByAccount接口&lt;br&gt;根据坐席账号获取坐席信息&lt;br&gt;返回staffResult" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="460" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-28" value="符合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-29" target="RFZ-xyAYEmnQH6jCGxA0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-29" value="参数：&lt;br&gt;SaasAccount=&lt;span&gt;&amp;nbsp;account&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-31" target="RFZ-xyAYEmnQH6jCGxA0-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-31" value="根据通话记录时间和当前时间获取时间间隔" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="540" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-32" target="RFZ-xyAYEmnQH6jCGxA0-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-32" value="&lt;span&gt;判断是否是天润tagid&lt;/span&gt;&lt;br&gt;&lt;span&gt;common.TRCallTags[phoneTagIDMap[QscPhone(phone)]]&lt;br&gt;不是：&lt;/span&gt;&lt;span&gt;										&lt;/span&gt;&lt;span&gt;qscPhoneAccounts[QscPhone(phone)] = append(qscPhoneAccounts[QscPhone(phone)], staffResult.SaasId)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="435" y="590" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-35" target="RFZ-xyAYEmnQH6jCGxA0-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-35" value="&lt;span&gt;判断时间小于60天，是&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;qscPhoneAccounts[QscPhone(phone)] = append(qscPhoneAccounts[QscPhone(phone)], staffResult.SaasId)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="435" y="690" width="375" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-37" value="是天润tagid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-38" target="RFZ-xyAYEmnQH6jCGxA0-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-38" target="RFZ-xyAYEmnQH6jCGxA0-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-38" value="&lt;div&gt;判断手机号是不是已经在predictCallPhones里了&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="488.75" y="760" width="267.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-40" value="时间大于60天" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="740" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-41" target="RFZ-xyAYEmnQH6jCGxA0-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-41" value="&lt;span&gt;赋值预测外呼：这个返回值和管家历史名字一样但是只值不一样&lt;/span&gt;&lt;br&gt;&lt;div&gt;predictCallPhones[Phone] =&amp;nbsp;staffResult.SaasId&lt;/div&gt;&lt;div&gt;predictCallPhoneLeadsUUIds[Phone] = uuid&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="820" width="257.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-42" value="追加qscPhoneAccounts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="820" width="155" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-45" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="780" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-46" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="780" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-48" target="RFZ-xyAYEmnQH6jCGxA0-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-48" value="绑定管家&lt;br&gt;判断qscPhoneAccounts是大于零" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="950" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-51" target="RFZ-xyAYEmnQH6jCGxA0-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-51" value="遍历qscPhoneAccounts&lt;br&gt;取第一个未离职的坐席&lt;br&gt;&lt;div&gt;bound[qscPhone] =staffId&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="1000" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="RFZ-xyAYEmnQH6jCGxA0-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-53" value="加入缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090.01" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-55" target="RFZ-xyAYEmnQH6jCGxA0-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-55" value="&lt;span style=&quot;text-align: left&quot;&gt;遍历assignBound，依次&lt;/span&gt;存入缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1054.63" y="100" width="190.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-57" value="Zset&lt;br&gt;key :&amp;nbsp;leads:(extend中bindpool):sorted-set" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-58" target="RFZ-xyAYEmnQH6jCGxA0-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-58" value="&lt;div&gt;merge := b.mergeMap(staffAttachBound, salesBound, assignBound, callBound)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="150" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-60" value="合并分配线索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="130" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-61" target="RFZ-xyAYEmnQH6jCGxA0-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-61" target="RFZ-xyAYEmnQH6jCGxA0-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-61" value="遍历qscPhoneLeadsIds&lt;br&gt;和merge匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075.01" y="215" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-63" target="RFZ-xyAYEmnQH6jCGxA0-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-63" value="追加以staffid为key&lt;br&gt;线索id为值得map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="295" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-64" value="追加切片freeLeadsIds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="295" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-67" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-68" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="250" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-69" target="RFZ-xyAYEmnQH6jCGxA0-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-69" value="遍历predictCallBound&lt;br&gt;通过predictCallPhoneLeadsUUIds获取uuid，追加成切片列表" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1035.01" y="380" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RFZ-xyAYEmnQH6jCGxA0-72" target="RFZ-xyAYEmnQH6jCGxA0-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-72" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;批量查询uuid,更新leads_public表&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;state=24暂时不分配&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;staffid=0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;extendIndex=&quot;YCWH&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075.01" y="450" width="179.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFZ-xyAYEmnQH6jCGxA0-74" value="区分线索&lt;br&gt;遍历staffLeadsIds(分配完的map)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="530" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
