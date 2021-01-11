@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T05:49:02.152Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6WSVsBWDMXHG1CEprUts" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T05:49:26.210Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ai1YwUyaV6RBBDb987iF" version="14.1.8" type="github">
   <diagram id="IqknK0kPTcSjH_NUfwJQ" name="Page-1">
     <mxGraphModel dx="3063" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -290,7 +290,7 @@
           <mxGeometry x="665" y="910" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EvDbIWPLK_iTkj3-h5W0-129" value="注：随机分配按照原有逻辑分为两种情况&lt;br&gt;1、平均分，2、顺序分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="1045" width="230" height="30" as="geometry" />
+          <mxGeometry x="415" y="1000" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EvDbIWPLK_iTkj3-h5W0-136" value="wiki图有歧义" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="742.5" y="865" width="80" height="20" as="geometry" />
