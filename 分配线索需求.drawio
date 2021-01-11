@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T05:58:21.694Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UrQaNuW9q_lSj8-O_yzK" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T06:09:40.075Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9C9XPJHLY0jSSWndxu_Z" version="14.1.8" type="github">
   <diagram id="-7qso3VPwIya1xmqI1ie" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -24,25 +24,47 @@
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-6" value="查询state=1且business_id&amp;gt;0且updated_at&amp;gt;now() 00:00:00&amp;lt;now() 当前时间点减去一分钟&lt;br&gt;表 ：leads_assign_record&amp;nbsp; &amp;nbsp;只查询1条" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="60" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-9" target="5zx6UMQ0ANoe6JO5xcOM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-9" target="5zx6UMQ0ANoe6JO5xcOM-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-9" value="判断上一条任务是否执行完" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="392.5" y="120" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-10" value="执行完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="150" width="50" height="20" as="geometry" />
+          <mxGeometry x="480" y="150" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-11" value="等一下&lt;br&gt;sleep 10s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="95" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-12" value="获取任务待分配的总数和待分配stafflist详请" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="398.75" y="180" width="148.75" height="40" as="geometry" />
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-12" target="5zx6UMQ0ANoe6JO5xcOM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-12" value="可用的stafflist待分配详请" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="170" width="157.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-15" target="5zx6UMQ0ANoe6JO5xcOM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-15" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;map&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;可用坐席需要补充多少线索&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;待分配线索list&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;更新状态&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="155" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-17" target="5zx6UMQ0ANoe6JO5xcOM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-17" target="5zx6UMQ0ANoe6JO5xcOM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-17" value="遍历stafflist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425.5" y="220" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-19" value="给每一个坐席分配线索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="225" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-20" value="leads_public中获取分配中的线索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380.62" y="270" width="178.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
