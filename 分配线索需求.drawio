@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T06:32:07.528Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="lS-Bpsuzzwz47-Mq_sM-" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T06:37:45.599Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JLeNoWa6Rsp5TeEk2BhD" version="14.1.8" type="github">
   <diagram id="-7qso3VPwIya1xmqI1ie" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -157,6 +157,33 @@
         </mxCell>
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-62" value="按照fill的数量获取&lt;br&gt;如果超过1000，按照1000获取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="547.5" y="275" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-63" target="5zx6UMQ0ANoe6JO5xcOM-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-63" target="5zx6UMQ0ANoe6JO5xcOM-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-63" target="5zx6UMQ0ANoe6JO5xcOM-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-63" target="5zx6UMQ0ANoe6JO5xcOM-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-63" value="以上把每个坐席索引都填满为止" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="575.5" y="750" width="95.68" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-64" value="更新leads_remind" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-65" value="更新leads_piublic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="496.85999999999996" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-66" value="插入leads_flow_record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="634.09" y="820" width="135.91" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-70" value="更新leads_assign_record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="798.43" y="822.5" width="140" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
