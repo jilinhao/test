@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T06:09:40.075Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9C9XPJHLY0jSSWndxu_Z" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T06:32:07.528Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="lS-Bpsuzzwz47-Mq_sM-" version="14.1.8" type="github">
   <diagram id="-7qso3VPwIya1xmqI1ie" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -63,8 +63,100 @@
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-19" value="给每一个坐席分配线索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="225" width="140" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-20" target="5zx6UMQ0ANoe6JO5xcOM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5zx6UMQ0ANoe6JO5xcOM-20" value="leads_public中获取分配中的线索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380.62" y="270" width="178.75" height="30" as="geometry" />
+          <mxGeometry x="410" y="270" width="119.38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-27" target="5zx6UMQ0ANoe6JO5xcOM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582.75" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-27" value="判断线索的当前坐席是否是第一管家" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="408.76" y="330" width="120.62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-33" value="绑定坐席和线索关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="410" width="114.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-37" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-38" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-39" target="5zx6UMQ0ANoe6JO5xcOM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-39" target="5zx6UMQ0ANoe6JO5xcOM-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-39" value="调用接口最近一次通话记录" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="505" y="410" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-40" target="5zx6UMQ0ANoe6JO5xcOM-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-40" target="5zx6UMQ0ANoe6JO5xcOM-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-40" value="&lt;span&gt;判断线索创建到最近一次通话时间间隔是否大于60d&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425.5" y="490" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-41" target="5zx6UMQ0ANoe6JO5xcOM-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-41" value="判断最近一次分配记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="490" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-44" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="440" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-45" value="无" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="440" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-46" value="随机分配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-48" value="大于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-49" value="&lt;span&gt;绑定坐席和线索关系&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="570" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-51" value="小于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-52" target="5zx6UMQ0ANoe6JO5xcOM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5zx6UMQ0ANoe6JO5xcOM-52" target="5zx6UMQ0ANoe6JO5xcOM-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-52" value="判断线索创建到最近一次分配时间间隔是否大于60d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646.56" y="570" width="151.87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-54" value="&lt;span&gt;随机分配&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575.5" y="670" width="114.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-55" value="&lt;span&gt;绑定坐席和线索关系&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="670" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-56" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="540" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-59" value="大于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-60" value="小于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5zx6UMQ0ANoe6JO5xcOM-62" value="按照fill的数量获取&lt;br&gt;如果超过1000，按照1000获取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="275" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
