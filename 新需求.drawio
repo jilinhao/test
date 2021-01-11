@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T05:42:53.869Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="GefMDHdbi-uqHLL7fTOv" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T05:44:07.040Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="IOb1rUQbTEL_oPtnsCMw" version="14.1.8" type="github">
   <diagram id="IqknK0kPTcSjH_NUfwJQ" name="Page-1">
     <mxGraphModel dx="3063" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -169,14 +169,8 @@
         <mxCell id="EvDbIWPLK_iTkj3-h5W0-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvDbIWPLK_iTkj3-h5W0-55" target="EvDbIWPLK_iTkj3-h5W0-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EvDbIWPLK_iTkj3-h5W0-55" value="根据qsid查询成单列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EvDbIWPLK_iTkj3-h5W0-55" value="查询leads_public中&lt;span style=&quot;text-align: left&quot;&gt;tagtype=2（提醒类线索）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="370" width="142" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EvDbIWPLK_iTkj3-h5W0-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvDbIWPLK_iTkj3-h5W0-57" target="EvDbIWPLK_iTkj3-h5W0-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EvDbIWPLK_iTkj3-h5W0-57" value="业绩接口获取成单列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="888.5" y="380" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EvDbIWPLK_iTkj3-h5W0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EvDbIWPLK_iTkj3-h5W0-63" target="EvDbIWPLK_iTkj3-h5W0-65">
           <mxGeometry relative="1" as="geometry" />
