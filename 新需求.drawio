@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T05:33:05.348Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zR6G5d8u1xS52krIAqWX" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T05:42:39.877Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Px5XEecqiwZMdoAdANUB" version="14.1.8" type="github">
   <diagram id="IqknK0kPTcSjH_NUfwJQ" name="Page-1">
     <mxGraphModel dx="3063" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
           <mxGeometry x="600" y="615" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EvDbIWPLK_iTkj3-h5W0-89" value="随机分配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="848" y="585" width="112.62" height="15" as="geometry" />
+          <mxGeometry x="848.69" y="593" width="112.62" height="15" as="geometry" />
         </mxCell>
         <mxCell id="EvDbIWPLK_iTkj3-h5W0-94" value="随机分配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="366.5" y="810" width="113.5" height="20" as="geometry" />
@@ -297,6 +297,9 @@
         </mxCell>
         <mxCell id="EvDbIWPLK_iTkj3-h5W0-129" value="注：随机分配按照原有逻辑分为两种情况&lt;br&gt;1、平均分，2、顺序分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="1045" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EvDbIWPLK_iTkj3-h5W0-135" value="分配中如果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="750" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
