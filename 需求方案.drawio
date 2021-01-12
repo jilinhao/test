@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T23:37:58.436Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="pBiyFbvMZODZXiXnwlKH" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T23:41:10.139Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qnoOebN2unJODo7kt7zi" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8626" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
           <mxGeometry x="-4206" y="185" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-163" value="qscid1&lt;br&gt;qscid2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5474.75" y="462.5" width="60" height="80" as="geometry" />
+          <mxGeometry x="-5474.75" y="485.25" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-164" target="A6d9JLvdJddHrv5XPmhk-163">
           <mxGeometry relative="1" as="geometry" />
@@ -160,19 +160,19 @@
           <mxGeometry x="-4890.75" y="623.75" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-178" value="&lt;span&gt;qscid5&lt;/span&gt;&lt;br&gt;&lt;span&gt;qscid6&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5259.75" y="462.5" width="60" height="80" as="geometry" />
+          <mxGeometry x="-5259.75" y="485.25" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-179" value="&lt;span&gt;qscid3&lt;/span&gt;&lt;br&gt;&lt;span&gt;qscid4&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5367.25" y="462.5" width="60" height="80" as="geometry" />
+          <mxGeometry x="-5367.25" y="485.25" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-182" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5494.75" y="552.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="-5494.75" y="575.25" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-183" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5387.25" y="552.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="-5387.25" y="575.25" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-184" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5279.75" y="552.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="-5279.75" y="575.25" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-186" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5074.75" y="713.75" width="100" height="20" as="geometry" />
@@ -184,13 +184,13 @@
           <mxGeometry x="-4897" y="713.75" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-189" value="坐席A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5469.75" y="580" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5469.75" y="602.75" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-190" value="坐席B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5359.75" y="581.25" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5359.75" y="604" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-191" value="坐席C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5254.75" y="581.25" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5254.75" y="604" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-192" value="坐席D" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5044.5" y="733.75" width="50" height="20" as="geometry" />
@@ -362,6 +362,9 @@
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-303" value="未分满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4019.5" y="603.75" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-309" value="注：第一管家概念：qscid对应多个成单，&lt;br&gt;第一个成单的坐席为第一管家" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-5464.75" y="658.75" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
