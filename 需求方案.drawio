@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:02:46.412Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="W9tb7-yEFLNlH-GIv0aW" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:26:25.852Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FMd6_SoulSnj5ZbSI4uy" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
-    <mxGraphModel dx="9078" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="9078" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,20 +210,17 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-167" target="A6d9JLvdJddHrv5XPmhk-174">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-167" target="A6d9JLvdJddHrv5XPmhk-214">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-167" value="获取坐席列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5346" y="870" width="117.5" height="30" as="geometry" />
+          <mxGeometry x="-5346" y="860" width="117.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-170" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5370" y="960" width="60" height="80" as="geometry" />
+          <mxGeometry x="-5370" y="950" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-172" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5292.5" y="960" width="60" height="80" as="geometry" />
+          <mxGeometry x="-5292.5" y="950" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-174" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5220" y="960" width="60" height="80" as="geometry" />
+          <mxGeometry x="-5220" y="950" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-178" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5447.5" y="800" width="60" height="80" as="geometry" />
@@ -241,13 +238,13 @@
           <mxGeometry x="-5442.5" y="890" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-186" value="redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5360" y="1050" width="40" height="20" as="geometry" />
+          <mxGeometry x="-5360" y="1040" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-187" value="redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5282.5" y="1050" width="40" height="20" as="geometry" />
+          <mxGeometry x="-5282.5" y="1040" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-188" value="redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5210" y="1050" width="40" height="20" as="geometry" />
+          <mxGeometry x="-5210" y="1040" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-189" value="坐席A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5592.5" y="910" width="50" height="20" as="geometry" />
@@ -259,16 +256,16 @@
           <mxGeometry x="-5447.5" y="910" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-192" value="坐席D" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5360" y="1070" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5360" y="1060" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-193" value="坐席E" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5287.5" y="1070" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5287.5" y="1060" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-194" value="坐席F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5215" y="1070" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5215" y="1060" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-195" value="判断坐席内存池是否有关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5209.5" y="875" width="160" height="20" as="geometry" />
+          <mxGeometry x="-5209.5" y="865" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-196" value="取近60d数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5275" y="750" width="80" height="20" as="geometry" />
@@ -285,23 +282,11 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-207" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4708" y="242.5" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-213" value="新坐席&lt;br&gt;1、历史线索少&lt;br&gt;处理办法:&lt;br&gt;是否有入职时间，&lt;br&gt;如果是当天入职，&lt;br&gt;从&lt;span style=&quot;text-align: center&quot;&gt;leads_piublic取出&lt;br&gt;没有没有staffid进行补偿&lt;br&gt;按照130量&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5000" y="830" width="140" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-214" value="无归属qscid" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5145" y="960" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-216" value="新坐席2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5145" y="1050" width="60" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-218" value="会有重叠&lt;br&gt;入库前做一次处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5154.5" y="557.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-220" value="1、查询数据表获取通话记录和&lt;br&gt;分配记录最大时间点&lt;br&gt;2、用这个max时间点获取最有&lt;br&gt;可能线索范围" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5189.5" y="590" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-222" value="获取入职时间不是当天" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5692.5" y="720" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-224" target="A6d9JLvdJddHrv5XPmhk-227">
           <mxGeometry relative="1" as="geometry" />
