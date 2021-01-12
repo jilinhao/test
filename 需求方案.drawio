@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T14:18:45.724Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4gnGmaGrpMSe5JUGgOTo" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T14:18:54.462Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="O0eE3ZhZnTN_JZVuuWXj" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8626" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -80,9 +80,6 @@
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-146" value="实时读取&lt;span&gt;leads_piublic&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4917.5" y="530" width="127.5" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-147" value="管家" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5312.5" y="541.25" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-148" value="记录:坐席id,qscid,orderid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5848" y="650" width="150" height="20" as="geometry" />
