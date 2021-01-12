@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:43:07.343Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qwQtd52mlMhVxed5E0m8" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:43:55.823Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="BSEoFtWXNpLxY75R-c1p" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8626" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -343,8 +343,8 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-274" value="坐席A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5482.5" y="1060" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-276" value="还有没成单的qsid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5512.5" y="1090" width="110" height="20" as="geometry" />
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-276" value="还有没成单的qscid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-5517.5" y="1090" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
