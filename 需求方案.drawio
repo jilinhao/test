@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T00:15:37.230Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bzL3a_tqjuh2KWwwpZ0p" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T00:19:24.414Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NB-opn5oL0jot6O2x0w1" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8626" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -81,8 +81,8 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-146" value="实时读取&lt;span&gt;leads_piublic&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5050.75" y="185" width="127.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-148" value="记录:坐席id,qscid,orderid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-6578" y="640" width="150" height="20" as="geometry" />
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-148" value="记录:&lt;br&gt;1、坐席id&lt;br&gt;2、qscid&lt;br&gt;3、orderid&lt;br&gt;4、type 是否第一管家" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-6678" y="643.75" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-150" target="A6d9JLvdJddHrv5XPmhk-164">
           <mxGeometry relative="1" as="geometry" />
