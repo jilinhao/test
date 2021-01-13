@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T04:24:29.351Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mxnSQSQfRgqGnn4qEY30" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T04:26:31.482Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ooM2EqjV4ZlAa-qZZYkM" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8866" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-229" target="A6d9JLvdJddHrv5XPmhk-252">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-332" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-229" target="A6d9JLvdJddHrv5XPmhk-331">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-229" target="A6d9JLvdJddHrv5XPmhk-255">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-229" value="判断线索是否已满" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -221,7 +221,7 @@
           <mxGeometry x="-4030" y="555" width="87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-255" value="分配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4184.5" y="745.75" width="87" height="40" as="geometry" />
+          <mxGeometry x="-4185.25" y="643.75" width="87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-257" target="A6d9JLvdJddHrv5XPmhk-259">
           <mxGeometry relative="1" as="geometry" />
@@ -241,20 +241,14 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-259" value="无归属qscid" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-4401.5" y="395" width="102" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-326" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-264" target="A6d9JLvdJddHrv5XPmhk-266">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-264" target="A6d9JLvdJddHrv5XPmhk-292">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-264" value="&lt;span&gt;通过qscid，state(分配中)tagsid按照顺序查询线索&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4437" y="507.13" width="173" height="42.87" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-266" target="A6d9JLvdJddHrv5XPmhk-292">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-266" value="收集线索排序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4424" y="598.75" width="147" height="30" as="geometry" />
+          <mxGeometry x="-4437" y="523.13" width="173" height="42.87" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-268" value="分配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4394" y="760" width="87" height="40" as="geometry" />
+          <mxGeometry x="-4394" y="713.13" width="87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-270" value="新坐席" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4374" y="273.75" width="50" height="20" as="geometry" />
@@ -286,34 +280,25 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-289" value="过滤离职坐席" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4070.5" y="195" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-293" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-292" target="A6d9JLvdJddHrv5XPmhk-257">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-4460" y="699" />
-              <mxPoint x="-4460" y="318" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-292" target="A6d9JLvdJddHrv5XPmhk-268">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-292" value="判断分满" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4410.75" y="683.75" width="120.5" height="30" as="geometry" />
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-292" target="A6d9JLvdJddHrv5XPmhk-257">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4460" y="652" />
+              <mxPoint x="-4460" y="328" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-296" value="未分满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-292" value="判断线索是否已满" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4410.75" y="636.88" width="120.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-296" value="未分满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="-4510" y="492.25" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-298" value="分满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-4350" y="720" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-299" target="A6d9JLvdJddHrv5XPmhk-255">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-299" value="判断分满" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4201.75" y="677.25" width="120.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-302" value="分满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-4141.25" y="715.75" width="40" height="20" as="geometry" />
+          <mxGeometry x="-4350" y="673.13" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-303" value="未分满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4019.5" y="603.75" width="50" height="20" as="geometry" />
@@ -339,12 +324,6 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-315" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;type：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、提醒&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、无归属&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、有归属（历史线索）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5240" y="65" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-331" target="A6d9JLvdJddHrv5XPmhk-299">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-331" value="收集线索排序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4214.5" y="623.75" width="147" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-334" value="查询state=1且business_id&amp;gt;0且updated_at&amp;gt;now() 00:00:00&amp;lt;now() 当前时间点减去一分钟&lt;br&gt;表 ：leads_assign_record&lt;br&gt;只查询1条" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4032.94" y="113.75" width="280" height="52.5" as="geometry" />
         </mxCell>
@@ -353,6 +332,9 @@
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-340" value="新增tagtype" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-6360" y="549.75" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-349" value="分满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-4141" y="603.75" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
