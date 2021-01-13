@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T00:10:47.604Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ZuBLlwxMFAGG7Ua0izXZ" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T00:15:10.098Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="J50EjYQnLpdraXw0mboS" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8626" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -209,11 +209,11 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-194" value="坐席F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4706" y="750" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-196" value="查询关系表当天&lt;br&gt;数据,且type=2&lt;br&gt;插入无归属集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5084.75" y="463.75" width="100" height="50" as="geometry" />
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-196" value="查询关系表获&lt;br&gt;取近60天数据,&lt;br&gt;且type=2插入无&lt;br&gt;归属集合" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-5084.75" y="458.75" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-197" value="当天数据,且type=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5440" y="350" width="120" height="20" as="geometry" />
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-197" value="获取近60天，type=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-5445" y="350" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-204" target="A6d9JLvdJddHrv5XPmhk-283">
           <mxGeometry relative="1" as="geometry" />
