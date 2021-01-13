@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T05:38:47.620Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-aVStahcC28nYVWAKZWq" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T05:43:57.762Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FcBZ0vqxXoeg4jnoHTu9" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
-    <mxGraphModel dx="9257" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="8468" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,7 +124,7 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-186" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5370" y="737.5000000000001" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-192" value="坐席D" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-192" value="坐席B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5339.75" y="757.5000000000001" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-196" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E8%8E%B7%E5%8F%96%E8%BF%9160%E5%A4%A9%EF%BC%8Ctype%3D1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-5752.13%22%20y%3D%22640%22%20width%3D%22130%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -324,10 +324,10 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-363" value="通话事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5287.5" y="386.25" width="112" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-367" value="&lt;span&gt;qscid7&lt;/span&gt;&lt;br&gt;&lt;span&gt;qscid8&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-367" value="&lt;span&gt;qscid3&lt;/span&gt;&lt;br&gt;&lt;span&gt;qscid4&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5354" y="646.0600000000001" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-369" value="qscid20&lt;br&gt;qscid21" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-369" value="qscid1&lt;br&gt;qscid2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5572" y="646.0600000000001" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-373" target="A6d9JLvdJddHrv5XPmhk-360">
@@ -356,6 +356,9 @@
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-382" value="事件消息体&lt;br&gt;1、qscid&lt;br&gt;2、staffid&lt;br&gt;3、eventtype&lt;br&gt;4、extend(扩展字段)&lt;br&gt;转派使用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5265.5" y="487.93" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-388" value="注：转派事件：查询关系表，找到原始关系，更新绑定关系，并在缓存集合找到对应坐席删除和增加&lt;br&gt;分配事件：查询关系表，找到原始关系，判断是否已经绑定，已绑定不更新缓存和表，否则&lt;br&gt;管家事件：同分配事件&lt;br&gt;通话事件：同分配时间" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-5709.5" y="775.44" width="540" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
