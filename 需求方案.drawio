@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T02:23:24.163Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="uO0A_zD57NLWzHTv61oy" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T02:23:38.540Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-DWabp0LEr9uNhTX-YcG" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8626" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-204" target="A6d9JLvdJddHrv5XPmhk-283">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-204" value="循环坐席列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-204" value="循环可用坐席列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4201" y="250" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-220" value="1、查询数据表获取通话记录最近和&lt;br&gt;分配记录时间最近时间&amp;nbsp; 中 最大时间点&lt;br&gt;2、用这个max时间和创建时间点获取最有&lt;br&gt;可能线索范围&lt;br&gt;3、记录时间点到缓存，为下次查询做增量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
