@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T03:17:37.001Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NaT2Le5N5k5C4vIMdLUQ" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T04:08:31.055Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="a8MO6jCXNYcdzbL-pbC4" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8866" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           <mxGeometry x="-5546.5" y="55" width="140" height="10" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-28" value="leads_public" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-6472.5" y="546.5" width="85" height="80" as="geometry" />
+          <mxGeometry x="-6472.5" y="514.75" width="85" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-40" value="数据表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5406.5" y="50" width="50" height="20" as="geometry" />
@@ -42,8 +42,11 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-56" target="A6d9JLvdJddHrv5XPmhk-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-56" target="A6d9JLvdJddHrv5XPmhk-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-56" value="提醒类线索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6668" y="419" width="120" height="60" as="geometry" />
+          <mxGeometry x="-6720" y="419" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-58" target="A6d9JLvdJddHrv5XPmhk-28">
           <mxGeometry relative="1" as="geometry" />
@@ -55,7 +58,7 @@
           <mxGeometry x="-6710" y="297.5" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-67" value="leads_msg" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-6651" y="550" width="85" height="80" as="geometry" />
+          <mxGeometry x="-6702.5" y="595.75" width="85" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-138" value="只做排重过滤，线索类型区分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-6590" y="100" width="170" height="20" as="geometry" />
@@ -79,13 +82,13 @@
           <mxGeometry x="-5050.5" y="186.25" width="127.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-148" value="记录:&lt;br&gt;1、坐席id&lt;br&gt;2、qscid&lt;br&gt;3、uuid&lt;br&gt;4、createtime&lt;br&gt;5、remindid" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-6678" y="638.75" width="90" height="90" as="geometry" />
+          <mxGeometry x="-6692.5" y="707.25" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-150" target="A6d9JLvdJddHrv5XPmhk-164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-150" value="leads_&lt;span style=&quot;color: rgb(46 , 46 , 46) ; font-family: &amp;#34;hei&amp;#34; ; font-size: 13px&quot;&gt;relation&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5556.25" y="294.25" width="87.5" height="68.75" as="geometry" />
+          <mxGeometry x="-5556.25" y="285" width="87.5" height="68.75" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-152" value="设置&lt;span&gt;qscid为唯一索引&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5710" y="293" width="130" height="20" as="geometry" />
@@ -149,13 +152,13 @@
           <mxGeometry x="-4799" y="616.25" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-179" value="&lt;span&gt;qscid3&lt;/span&gt;&lt;br&gt;&lt;span&gt;qscid4&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5470" y="505.75" width="60" height="80" as="geometry" />
+          <mxGeometry x="-5436.5" y="505.75" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-182" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-5670" y="595.75" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-183" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5490" y="594.75" width="100" height="20" as="geometry" />
+          <mxGeometry x="-5456.5" y="594.75" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-186" value="redis&amp;nbsp; 有序集合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4815" y="705.75" width="100" height="20" as="geometry" />
@@ -164,7 +167,7 @@
           <mxGeometry x="-5645" y="623.25" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-190" value="坐席B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-5468.75" y="618.75" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5436.5" y="616.25" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-192" value="坐席D" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-4784.75" y="725.75" width="50" height="20" as="geometry" />
@@ -181,8 +184,8 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-204" value="循环坐席列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4201" y="250" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-220" value="1、查询数据表获取通话记录最近和&lt;br&gt;分配记录时间最近时间&amp;nbsp; 中 最大时间点&lt;br&gt;2、用这个max时间和创建时间点获取最有&lt;br&gt;可能线索范围" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-4896" y="278.75" width="240" height="60" as="geometry" />
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-220" value="1、查询数据表获取通话记录最近和&lt;br&gt;分配记录时间最近时间&amp;nbsp; 中 最大时间点&lt;br&gt;2、用这个max时间和创建时间点获取最近绑定关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-4896" y="283.75" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-224" target="A6d9JLvdJddHrv5XPmhk-227">
           <mxGeometry relative="1" as="geometry" />
@@ -353,6 +356,12 @@
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-335" value="读取leads_assign_record获取任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4236.06" y="113.75" width="192.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-339" value="1、查询数据表获取通话记录最近和&lt;br&gt;分配记录时间最近时间&amp;nbsp; 中 最大时间点&lt;br&gt;2、用这个max时间和创建时间点获取最近绑定关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-4886" y="293.75" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-340" value="新增tagtype" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-6360" y="549.75" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
