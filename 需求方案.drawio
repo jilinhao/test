@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T03:13:29.082Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TxL_RjSlWL7U0ZdK1Cdh" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T03:15:04.391Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JHBZrt5ibU2-fbl4KnD4" version="14.1.8" type="github">
   <diagram id="mOKPnjC2bgA8M7GKpCo7" name="Page-1">
     <mxGraphModel dx="8626" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-227" target="A6d9JLvdJddHrv5XPmhk-229">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-227" value="&lt;span&gt;通过qscid&lt;/span&gt;任务tagsid&lt;span&gt;&lt;br&gt;查询线索&lt;/span&gt;按顺序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-227" value="通过qscid，state(分配中)tagsid按照顺序查询线索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4220.25" y="486.5" width="158" height="33.25" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-229" target="A6d9JLvdJddHrv5XPmhk-252">
@@ -286,8 +286,8 @@
         <mxCell id="A6d9JLvdJddHrv5XPmhk-326" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-264" target="A6d9JLvdJddHrv5XPmhk-266">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6d9JLvdJddHrv5XPmhk-264" value="&lt;span&gt;通过qscid任务tagsid查询线索按顺序&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4423" y="507.13" width="146" height="38.75" as="geometry" />
+        <mxCell id="A6d9JLvdJddHrv5XPmhk-264" value="&lt;span&gt;通过qscid，state(分配中)tagsid按照顺序查询线索&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4437" y="507.13" width="173" height="42.87" as="geometry" />
         </mxCell>
         <mxCell id="A6d9JLvdJddHrv5XPmhk-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A6d9JLvdJddHrv5XPmhk-266" target="A6d9JLvdJddHrv5XPmhk-292">
           <mxGeometry relative="1" as="geometry" />
